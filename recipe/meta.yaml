@@ -1,5 +1,5 @@
 {% set name = "partial-json-parser" %}
-{% set version = "0.2.1.1.post5" %}
+{% set version = "0.2.1.1.post6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/partial_json_parser-{{ version }}.tar.gz
-  sha256: 992710ac67e90b367921d52727698928040f7713ba7ecb33b96371ea7aec82ca
+  sha256: 43896b68929678224cbbe4884a6a5fe9251ded4b30b8b7d7eb569e5feea93afc
 
 build:
   entry_points:
